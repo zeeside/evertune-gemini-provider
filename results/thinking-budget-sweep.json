@@ -1,0 +1,38 @@
+[
+  {
+    "thinking_budget": 0,
+    "n": 120,
+    "p50_s": 2.74,
+    "p95_s": 10.34,
+    "mean_input_tokens": 39.4,
+    "mean_output_tokens": 225.4,
+    "usd_per_1k_calls": 0.575
+  },
+  {
+    "thinking_budget": 128,
+    "n": 120,
+    "p50_s": 3.07,
+    "p95_s": 7.58,
+    "mean_input_tokens": 39.4,
+    "mean_output_tokens": 310.8,
+    "usd_per_1k_calls": 0.789
+  },
+  {
+    "thinking_budget": 512,
+    "n": 120,
+    "p50_s": 5.75,
+    "p95_s": 14.22,
+    "mean_input_tokens": 39.4,
+    "mean_output_tokens": 590.2,
+    "usd_per_1k_calls": 1.487
+  },
+  {
+    "thinking_budget": "dynamic",
+    "n": 120,
+    "p50_s": 8.61,
+    "p95_s": 17.54,
+    "mean_input_tokens": 39.4,
+    "mean_output_tokens": 995.7,
+    "usd_per_1k_calls": 2.501
+  }
+]

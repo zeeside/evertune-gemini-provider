@@ -1,0 +1,29 @@
+[
+  {
+    "region": "us-central1",
+    "model": "gemini-2.5-flash",
+    "concurrency": 128,
+    "requests": 3000,
+    "ok": 3000,
+    "error_rate": 0.0,
+    "wall_s": 47.96,
+    "throughput_rps": 62.56,
+    "output_tps": 13800.8,
+    "p50_s": 1.78,
+    "p90_s": 2.78,
+    "p95_s": 3.03,
+    "p99_s": 3.86,
+    "max_s": 13.56,
+    "mean_output_tokens": 220.6,
+    "stalls_over_10s": 2,
+    "latency_buckets": {
+      "0-3s": 2837,
+      "3-5s": 150,
+      "5-10s": 11,
+      "10-30s": 2,
+      "30-60s": 0,
+      "60-infs": 0
+    },
+    "errors": {}
+  }
+]

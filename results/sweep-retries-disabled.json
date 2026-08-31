@@ -1,0 +1,83 @@
+[
+  {
+    "region": "us-central1",
+    "model": "gemini-2.5-flash",
+    "concurrency": 128,
+    "requests": 300,
+    "ok": 300,
+    "error_rate": 0.0,
+    "wall_s": 12.96,
+    "throughput_rps": 23.15,
+    "output_tps": 5151.4,
+    "p50_s": 2.37,
+    "p90_s": 3.52,
+    "p95_s": 3.83,
+    "p99_s": 4.46,
+    "max_s": 9.05,
+    "mean_output_tokens": 222.5,
+    "stalls_over_10s": 0,
+    "latency_buckets": {
+      "0-3s": 242,
+      "3-5s": 57,
+      "5-10s": 1,
+      "10-30s": 0,
+      "30-60s": 0,
+      "60-infs": 0
+    },
+    "errors": {}
+  },
+  {
+    "region": "us-central1",
+    "model": "gemini-2.5-flash",
+    "concurrency": 256,
+    "requests": 300,
+    "ok": 300,
+    "error_rate": 0.0,
+    "wall_s": 8.29,
+    "throughput_rps": 36.2,
+    "output_tps": 8018.8,
+    "p50_s": 2.06,
+    "p90_s": 3.03,
+    "p95_s": 3.37,
+    "p99_s": 3.88,
+    "max_s": 8.21,
+    "mean_output_tokens": 221.5,
+    "stalls_over_10s": 0,
+    "latency_buckets": {
+      "0-3s": 265,
+      "3-5s": 34,
+      "5-10s": 1,
+      "10-30s": 0,
+      "30-60s": 0,
+      "60-infs": 0
+    },
+    "errors": {}
+  },
+  {
+    "region": "us-central1",
+    "model": "gemini-2.5-flash",
+    "concurrency": 512,
+    "requests": 300,
+    "ok": 300,
+    "error_rate": 0.0,
+    "wall_s": 6.13,
+    "throughput_rps": 48.92,
+    "output_tps": 11271.9,
+    "p50_s": 2.42,
+    "p90_s": 3.52,
+    "p95_s": 4.19,
+    "p99_s": 4.92,
+    "max_s": 5.99,
+    "mean_output_tokens": 230.4,
+    "stalls_over_10s": 0,
+    "latency_buckets": {
+      "0-3s": 220,
+      "3-5s": 78,
+      "5-10s": 2,
+      "10-30s": 0,
+      "30-60s": 0,
+      "60-infs": 0
+    },
+    "errors": {}
+  }
+]
